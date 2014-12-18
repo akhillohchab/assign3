@@ -1,0 +1,1 @@
+*/2 * * * * cd /tmp/deployment/application/ROOT/WEB-INF/classes; java -cp .:twitter4j-async-4.0.2.jar:twitter4j-core-4.0.2.jar:twitter4j-examples-4.0.2.jar:twitter4j-media-support-4.0.2.jar:twitter4j-stream-4.0.2.jar:../lib/mysql-connector-java-5.0.8-bin.jar app.TweetGet
