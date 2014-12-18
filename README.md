@@ -7,6 +7,8 @@ bs2888,
 cd2789,
 kmw2168
 
+
+
 Approach:
 
 We first tried the positive and negative word lists but that didn't give satisfactory answers. So,
@@ -20,3 +22,9 @@ For getting sentiments of tweets as a unit, use mapper_senti.py as the mapper an
 
 Running on the 4.3G dataset produced huge output sets in some cases, so we've included the screenshot for that and
 put some outputs in Outputs folder.
+
+
+Files:
+
+This assignment uses some files from our submission for assignment 2 (particularly tweetget.java) which we used
+to generate more tweets to test our code out. These files are 'tweets.*.txt'.
