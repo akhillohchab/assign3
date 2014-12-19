@@ -17,7 +17,8 @@ or any token) being positive or negative. The sentiments for each word are store
 being happy or sad.
 
 For word trends, run EMR in streaming mode with mapper.py and reducer.py as the mapper and reducer.
-for querying the sentiment toward one topic, run sentiment.py as mapper and 'aggregate' as reducer.
+for querying the sentiment toward one topic, run sentiment.py as mapper and 'aggregate' as reducer. Sentiment.py is inspired from Amazon's tutorial but works 
+well when used with an nltk classifier.
 
 For getting sentiments of tweets as a unit, use sent_list.py as the mapper and 'aggregate' as reducer. Note that you will also have to add the 
 sentiments_list.csv file to the S3 bucket to run this. 
